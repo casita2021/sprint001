@@ -1,3 +1,71 @@
-body{
-    background-image: url("../img/play\ video.png");
+*{
+    margin: 0;
+    padding: 0;
 }
+
+/*estilo del header*/
+.header{
+    display:flex;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: red;
+}
+
+.logo{
+    margin-right: 5px;
+    color: white;
+}
+
+.centro{
+    margin-left: 250px;
+}
+
+.izquierda{
+    margin-left: 40px;
+}
+
+.navbar ul{
+    display: flex;/*trabaja por defecto en row*/
+    list-style-type: none;/*esto saca los .*/
+    justify-content: space-between;  
+
+}
+.navbar ul li{
+     padding: auto;
+     margin: 8px;
+}
+
+a{
+  text-decoration: none;/*esto saca las lineas de los link*/
+  background-color: rgba(223, 151, 151, 0.863);
+  border-radius: 30px;
+  padding: 10px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*estilo del main*/
+main{
+    width: 100%;
+    height: 100vh; 
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    height: 200px;
+    color:white;
+}
+
+.pie{
+padding-top: 50px;
+}
+
+
+

@@ -8,38 +8,49 @@ body{
     color:white;
 }
 
+/*estilos del header*/
 .header{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
-.izquierdo{
-    justify-content: right;
-    align-items: center;
-   
+.logo{
+    margin-right: 5px;
 }
 
 .centro{
-    justify-content: center;
-    justify-content: space-evenly;
-
+    margin-left: 250px;
 }
 
+.izquierda{
+    margin-left: 40px;
+}
 
 .navbar ul{
     display: flex;/*trabaja por defecto en row*/
     list-style-type: none;/*esto saca los .*/
     justify-content: space-between;  
 }
+
 .navbar ul li{
      padding: auto;
-     margin: 20px;
+     margin: 8px;
 }
 
 a{
   text-decoration: none;/*esto saca las lineas de los link*/
+  background-color: rgba(223, 151, 151, 0.863);
+  border-radius: 30px;
+  padding: 10px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
+
+/*estilo de la caja que contiene titulo*/
 .caja-uno{
     display: flex;
     flex-direction: column;
@@ -48,7 +59,6 @@ a{
     background-color: black;
     height: 200px;
 }
-
 
 h1{
     margin-bottom: 100px; 
@@ -60,6 +70,8 @@ h1{
     height: 200px;
 }
 
+
+/*estilo del footer*/
 .footer{
     display: flex;
     justify-content: center;

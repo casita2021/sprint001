@@ -1,4 +1,132 @@
-body{
-    background-image:  url("../img/img01.jpg");
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    background-image: url("../img/img01.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*estilo del header*/
+.header{
+    display:flex;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: red;
+}
+
+.logo{
+    margin-right: 5px;
+    color: white;
+}
+
+.centro{
+    margin-left: 250px;
+}
+
+.izquierda{
+    margin-left: 40px;
+}
+
+.navbar ul{
+    display: flex;/*trabaja por defecto en row*/
+    list-style-type: none;/*esto saca los .*/
+    justify-content: space-between;  
+}
+
+.navbar ul li{
+     padding: auto;
+     margin: 8px;
+}
+
+a{
+  text-decoration: none;/*esto saca las lineas de los link*/
+  background-color: rgba(223, 151, 151, 0.863);
+  border-radius: 30px;
+  padding: 10px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*estilo del main*/
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    margin: auto;/*margen automatico asi los contasdos*/
+
+    background: linear-gradient(100deg,#c4124e,#6a2c55 70%);
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    border: 3px solid black;   
+}
+
+.titulo-form{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subTitulo-form{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.video{
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width:270px; 
+    border:2px solid rgb(255,255,255,0.911);
+    box-shadow:0 0 15px white;
+} 
+
+.linea{
+    height: 15px;
+    background-color: rgba(117, 33, 64, 0.982);
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+.boton{
+    margin: 4px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(117, 33, 64, 0.982);
+    border-style: none;
+    cursor: pointer; 
+}
+
+/*estilo de footer*/
+hr{
+    background-color: white;
+}
+  
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    height: 150px;
+    color:white;
 }

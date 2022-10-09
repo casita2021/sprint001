@@ -7,30 +7,47 @@
     <link rel="stylesheet" href="../css/menu.css">
     <title>MENU</title>
 </head>
+
 <body>
-    
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./menu.html">MENU</a></li>
-                <li><a href="./content.html">CONTENT</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="izquierda">
+             <label for="Web" class="logo">WEB</label>
+             <input type="text">
+        </div>
+        <div class="centro">
+            <nav class="navbar">
+                <ul>
+                  <li><a href="../index.html">HOME</a></li>
+                  <li><a href="./menu.html">MENU</a></li>
+                  <li><a href="./content.html">CONTENT</a></li>
+                </ul>
+              </nav>
+        </div>
     </header>
     
     <main>
-        <p>
-            Hola soy el main del la pagina de menu
-        </p>
+        <div class="formulario">
+            <form method="post" action="">
+               <p class="titulo-form"> Title </p>
+               <p class="subTitulo-form"> Sub Title </p>
+               <video  class="video" src="../video/video.mp4"
+               controls></video>
+            </form>
+        </div>
+
+        <div class="linea">
+            <button type="submit" class="boton">Video Play</button>
+        </div>
     </main>
-
-    <footer>
-        <p>
-            Hola soy el footer de la pagina de menu
-        </p>
+    <br>
+    <br>
+    <hr>
+    <footer class="footer">
+        <div>
+            <input type="text">
+            <button type="submit">Enviar a Contacto</button>
+            <p>@web-app</p>
+       </div>
     </footer>
-
-    
 </body>
 </html>
